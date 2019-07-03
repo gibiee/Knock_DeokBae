@@ -41,4 +41,5 @@
             android:layout_marginLeft="50dp"
             app:layout_constraintTop_toTopOf="@id/btn_normal"
             app:layout_constraintLeft_toRightOf="@id/btn_normal"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

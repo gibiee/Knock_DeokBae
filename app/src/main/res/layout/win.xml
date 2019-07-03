@@ -29,11 +29,11 @@
     <TextView
             android:id="@+id/difficulty"
             android:text="난이도"
-            android:textColor="#0000FF"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            app:layout_constraintLeft_toLeftOf="@id/btn_home"
-            app:layout_constraintBottom_toTopOf="@id/btn_home"/>
+            app:layout_constraintLeft_toLeftOf="@id/lv_win"
+            app:layout_constraintRight_toRightOf="@id/lv_win"
+            app:layout_constraintTop_toBottomOf="@id/lv_win"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

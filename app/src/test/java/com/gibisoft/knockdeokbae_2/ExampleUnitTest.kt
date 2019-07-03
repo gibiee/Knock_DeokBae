@@ -1,4 +1,4 @@
-package com.example.knockdeokbae
+package com.gibisoft.knockdeokbae_2
 
 import org.junit.Test
 
