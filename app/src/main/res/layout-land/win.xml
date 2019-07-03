@@ -7,39 +7,33 @@
 
     <ImageView
             android:id="@+id/lv_win"
-            android:layout_width="400dp"
+            android:layout_width="500dp"
             android:layout_height="250dp"
             android:background="@drawable/win"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="100dp"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"/>
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
 
     <ImageButton
             android:id="@+id/btn_home"
             android:layout_width="120dp"
             android:layout_height="40dp"
             android:background="@drawable/btn_home"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="300dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="200dp"
             app:layout_constraintTop_toTopOf="@id/lv_win"
             app:layout_constraintLeft_toLeftOf="@id/lv_win"
-            app:layout_constraintRight_toRightOf="@id/lv_win"/>
+            app:layout_constraintRight_toLeftOf="@id/lv_win"/>
 
-    <LinearLayout
-            android:id="@+id/layout_1"
-            android:layout_width="110dp"
-            android:layout_height="match_parent"
-            android:background="#000000"
-            android:orientation="vertical"
-            app:layout_constraintRight_toRightOf="parent"/>
-
-    <LinearLayout
-            android:id="@+id/layout_2"
-            android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:background="#000000"
-            android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+            android:id="@+id/difficulty"
+            android:text="난이도"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:layout_constraintLeft_toLeftOf="@id/lv_win"
+            app:layout_constraintRight_toRightOf="@id/lv_win"
+            app:layout_constraintTop_toBottomOf="@id/lv_win"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

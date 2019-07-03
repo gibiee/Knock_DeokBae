@@ -2,21 +2,22 @@
 <androidx.constraintlayout.widget.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent" android:layout_height="match_parent">
-
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <ImageView
             android:id="@+id/DoekBae"
-            android:layout_width="250dp"
+            android:layout_width="300dp"
             android:layout_height="250dp"
             android:background="@drawable/deok_bae"
-            android:layout_marginLeft="100dp"
+            android:layout_marginRight="80dp"
             app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
 
     <ImageButton
             android:id="@+id/btn_hand"
-            android:layout_width="150dp"
+            android:layout_width="200dp"
             android:layout_height="180dp"
             android:background="@drawable/btn_hand"
             android:layout_marginTop="90dp"
@@ -33,10 +34,12 @@
             app:layout_constraintRight_toLeftOf="parent"/>
 
     <ImageView
-            android:id="@+id/right_wall"
+            android:id="@+id/iv_timer_full"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            app:layout_constraintLeft_toRightOf="parent"
-            app:layout_constraintRight_toRightOf="parent"/>
+            android:layout_height="20dp"
+            android:background="#000000"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

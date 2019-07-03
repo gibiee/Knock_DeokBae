@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import kotlinx.android.synthetic.main.main.view.*
+import kotlinx.android.synthetic.main.win.view.*
 
-class Main : Fragment() {
+class Lose : Fragment() {
     private lateinit var mainActivity : MainActivity
 
     override fun onAttach(context: Context?) {
@@ -17,16 +17,11 @@ class Main : Fragment() {
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val view = inflater.inflate(R.layout.main, null)
+        val view = inflater.inflate(R.layout.lose, null)
 
-        view.btn_gameStart.setOnClickListener {
-            mainActivity.onFragmentChange("난이도 선택")
-        }
-
-        view.btn_how.setOnClickListener {
-            mainActivity.onFragmentChange("how")
+        view.btn_home.setOnClickListener {
+            mainActivity.onFragmentChange("메인화면")
         }
         return view
     }
 }
-
