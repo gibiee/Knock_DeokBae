@@ -40,9 +40,9 @@ class GamePlay(_goal : Int) : Fragment() {
                         if(count >= goal) {
                             timerBar.cancel(true)
                             when(goal) {
-                                40 -> mainActivity.onFragmentChangeWin("Easy")
-                                70 -> mainActivity.onFragmentChangeWin("Normal")
-                                100 -> mainActivity.onFragmentChangeWin("Hard")
+                                50 -> mainActivity.onFragmentChangeWin("Easy")
+                                80 -> mainActivity.onFragmentChangeWin("Normal")
+                                110 -> mainActivity.onFragmentChangeWin("Hard")
                             }
                         }
                     }
@@ -66,7 +66,8 @@ class GamePlay(_goal : Int) : Fragment() {
         override fun onProgressUpdate(vararg values: Void) {
             super.onProgressUpdate(*values)
 
-            iv_timer.layoutParams.width += 50
+            //iv_timer.layoutParams.width += 50
+            iv_timer.layoutParams.width += (iv_timer_full.width / 100 * 2.5).toInt()
             iv_timer.requestLayout()
 
             if(iv_timer.width >= iv_timer_full.width * 2) {
