@@ -11,6 +11,7 @@
 <img src="/readme/1.png" width="300px" height="160px" style="display:inline" />           <img src="/readme/2.png" width="300px" height="160px" style="display:inline" />
 
 ## 플레이 스토어
+<img src="/readme/stop.png" />
 정책 위반으로 삭제됨.
 
 ## 개발 스택
