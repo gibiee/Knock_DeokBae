@@ -10,5 +10,8 @@
 ## 스크린샷
 <img src="/readme/1.png" width="300px" height="160px" style="display:inline" />           <img src="/readme/2.png" width="300px" height="160px" style="display:inline" />
 
+## 플레이 스토어
+<img src="/readme/icon.png" style="display:inline" /> <https://play.google.com/store/apps/details?id=com.gibisoft.knockdeokbae_2>
+
 ## 개발 스택
 - AndroidStudio (Kotlin 사용)
