@@ -10,9 +10,10 @@
 ## 스크린샷
 <img src="/readme/1.png" width="300px" height="160px" style="display:inline" />           <img src="/readme/2.png" width="300px" height="160px" style="display:inline" />
 
-## 플레이 스토어
+## 다운로드
 <img src="/readme/stop.png" width="500px" height="130px" />
-정책 위반으로 삭제됨.
+Play 스토어 : 정책 위반으로 삭제됨.
+release : https://github.com/gibiee/Knock_DeokBae/releases
 
 ## 개발 스택
 - AndroidStudio (Kotlin 사용)
