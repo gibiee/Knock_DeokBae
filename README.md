@@ -12,8 +12,9 @@
 
 ## 다운로드
 <img src="/readme/stop.png" width="500px" height="130px" />
+
 Play 스토어 : 정책 위반으로 삭제됨.
-<br/>
+
 apk 다운로드 : https://github.com/gibiee/Knock_DeokBae/releases
 
 ## 개발 스택
